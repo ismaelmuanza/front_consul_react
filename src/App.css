@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.4;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+p {
+  margin: 0.625rem 0;
+}
+
+/* classes utilities */
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) { 
+  .container {
+      max-width: 60rem;
+  }
+}

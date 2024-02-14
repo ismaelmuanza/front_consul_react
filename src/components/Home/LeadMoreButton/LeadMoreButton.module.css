@@ -1,0 +1,15 @@
+.leadMoreButton {
+    display: inline-block;
+    background: blue;
+    color: orange;
+    margin-top: 0.625rem;
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+    border-radius: 0.3125rem;
+    font-weight: bold;
+}
+.leadMoreButton:hover {
+    background: rgb(27, 27, 141);
+    color: orange;
+    transition: .3s;
+}

@@ -1,0 +1,32 @@
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages li + li {
+    margin-left: 0.625rem;
+}
+.pages li a {
+    padding: 5px 0.625rem;
+    cursor: pointer;
+    font-size: 0.8125rem;
+}
+.pages li a:hover {
+    transition: .3s;
+    color: orange;
+}
+
+@media (max-width: 768px) { 
+    .pages li + li {
+        margin-left: 0;
+    }
+
+   
+}
+@media (max-width: 576) { 
+    .pages li + li {
+        margin-left: 0;
+    }
+}
+
+

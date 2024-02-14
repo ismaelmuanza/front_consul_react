@@ -1,0 +1,21 @@
+.navbar {
+    max-width: 79.375rem;
+    padding: 1.35rem;
+    display: grid;
+    grid-template-columns: minmax(18.75rem, 1fr) 2fr 1fr ;
+    gap: 1.25rem;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) { 
+    .navbar {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) { 
+    .navbar {
+        grid-template-columns: 1fr ;
+    }
+}
+

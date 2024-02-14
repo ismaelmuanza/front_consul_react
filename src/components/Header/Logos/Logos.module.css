@@ -1,0 +1,27 @@
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos img {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 768px) { 
+    .logos {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.25rem;
+    }
+
+   
+}
+@media (max-width: 576) { 
+    .logos {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.625rem;
+    }
+    
+}

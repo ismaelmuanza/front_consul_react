@@ -1,0 +1,6 @@
+.banner {
+    margin: 0.625rem auto;
+    border-radius: 0.25rem;
+    height: 70vh;
+    background: url('../../../img/banner.jpg') no-repeat center center/cover;
+}

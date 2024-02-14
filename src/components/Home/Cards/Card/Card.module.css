@@ -1,0 +1,28 @@
+.card {
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.625rem;
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem #ccc;
+    
+}
+.card img {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    border-bottom: 0.1875rem solid #ccc;
+
+}
+.cardInfo {
+    padding: 1.25rem;
+}
+.card h5 {
+    color: blue;
+    margin: 0.3125rem 0 0.9375rem 0;
+}
+.card p {
+    font-size: 0.6875rem;
+    color: #333;
+}
+.card a {
+    margin-top: 1.875rem;
+}

@@ -1,0 +1,15 @@
+.leadMore {
+    display: block;
+    background: blue;
+    color: orange;
+    padding: 0.625rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.leadMore:hover {
+    background: rgb(27, 27, 141);
+    color: orange;
+    transition: .3s;
+}

@@ -1,0 +1,67 @@
+.communique {
+    margin: 1.875rem auto;
+}
+.communique img {
+    display: block;
+    width: 100%;
+}
+.communiques {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+.content {
+    position: relative;
+    /* width: 400px; */
+    /* border-radius: 1.25rem; */
+    /* padding: 15px; */
+}
+.content img {
+    border-radius: 0.625rem;
+}
+
+.info {
+    left: 2.5rem;
+    position: absolute;
+    bottom: 1.25rem;
+}
+.info h3 {
+    font-size: 1.5rem;
+    color: orange;
+    font-weight: bold;
+}
+.info p {
+    font-size: 0.9375rem;
+    color: #fff;
+    font-weight: bold;
+}
+.info a {
+   background: orange;
+   color: blue;
+}
+
+.content .contentTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    gap: 0.625rem;
+
+}
+.content .contentTwo .info {
+    position: absolute;
+    /* display: none; */
+    
+}
+
+
+@media (max-width: 768px) { 
+    .info p {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) { 
+    .info {
+        display: none;
+    }
+}

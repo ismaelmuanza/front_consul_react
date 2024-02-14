@@ -1,0 +1,53 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.services {
+    background: orange;
+    color: blue;
+    padding: 0.3125rem 0.625rem;
+    font-size: 0.8.125rem;
+    cursor: pointer;
+}
+.language {
+    display: flex;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.language a {
+    font-size: 0.8.125rem;
+    color: blue;
+    padding: 0.25rem;
+    text-align: center;
+}
+.language a:first-child {
+   width: 3.125rem;
+}
+.language a:last-child {
+   width: 4.0625rem;
+}
+.activeLanguage {
+    background: blue;
+    color: orange !important;
+}
+.buttons input {
+    padding: 0.25rem 0.625rem;
+    max-width: 8.75rem;
+}
+@media (max-width: 768px) { 
+    .buttons {
+        justify-content: center;
+        
+    }
+}
+
+@media (max-width: 576px) { 
+    .buttons {
+        justify-content: center;
+    }
+
+    .buttons form {
+        display: none;
+    }
+}
